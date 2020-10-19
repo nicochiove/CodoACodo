@@ -1,0 +1,29 @@
+#top {
+	position: fixed;
+	top: 0;
+	right: 50vw;
+	width: 100px;
+}
+#bot {
+	position: fixed;
+	bottom: 0;
+	right: 50vw;
+	width: 100px;
+}
+#right {
+	position: fixed;
+	top: 50vh;
+	right: 0;
+}
+#left {
+	position: fixed;
+	top: 50vh;
+	left: 0;
+}
+.content {
+	position: relative;
+	width: 80vw;
+	height: auto;
+	margin: 20vw 10vw;
+	border: 2px solid green;
+}

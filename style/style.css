@@ -1,0 +1,24 @@
+/* Comentarios en CSS */ 
+p{
+	color: blue;
+}
+
+p{
+	color: red;
+}
+
+.noRojo{
+	border:2px solid blue;
+}
+
+tr,td{
+	text-align: center;
+	border: 2px solid black;
+}
+
+#rojo{
+	border:2px dotted red;
+}
+
+
+	

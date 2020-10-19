@@ -1,0 +1,68 @@
+/* GENERAL */
+p {
+	text-align: center;
+}
+div {
+	text-align: center;
+	margin: 5px;
+}
+#titulo {
+	font-size: 2.5rem;
+}
+/* TRANCISIONES */
+.tran div:first-child {
+	background-color: red;
+}
+.tran div:nth-child(2) {
+	background-color: blue;
+}
+.tran div:last-child {
+	background-color: green;
+}
+.tran div {
+	width: 50px;
+	height: 50px;
+}
+.tran div{
+	transition: all 3s;
+	transition-timing-function: ease-out;
+}
+.tran div:hover{
+	background-color: black;
+	color: white;
+	width: 100%;
+}
+/* ANMIMACIONES */
+.anim div:first-child {
+	background-color: pink;
+}
+.anim div:nth-child(2) {
+	background-color: yellow;
+}
+.anim div:last-child {
+	background-color: purple;
+}
+.anim p {
+	width: 50px;
+	height: 50px;
+}
+.anim div:hover{
+	animation-name: ejemplo;
+	animation-duration: 4s;
+}
+
+@keyframes ejemplo{
+	0%{width: 100%;}
+	50% {background-color: blue;}
+	100%{	background-color: orange;
+		color: white;
+		width: 50px;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 860px) {
+	#titulo {
+		font-size: 3rem;
+		background-color: black;
+		color: white;
+	}
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Tabla</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style/style.css" >
+	</head>
+	<body>
+		<table style="border: 2px solid black; ">
+			<thead>
+				<tr>
+					<td style="border: 2px solid black; " colspan="3"> <p>Modelos y Precios Sandero</p> </td>
+				</tr>
+			</thead>
+			<tbody>
+			<!--Modelo Life-->
+				<tr>
+					<th style="border: 2px solid black; ">Modelo</th>
+					<th style="border: 2px solid black; ">Color</th>
+					<th style="border: 2px solid black; ">Precio</th>
+				</tr>
+				<tr>
+					<td style="border: 2px solid black; " rowspan="3">Life</td>
+					<td id="rojo">Rojo</td>
+					<td class="noRojo" rowspan="3">$1.009.100</td>
+				</tr>
+				<tr>
+					<td class="noRojo">Azul</td>
+				</tr>
+				<tr>
+					<td class="noRojo">Negro</td>
+				</tr>
+			<!--Siguiente Modelo-->
+			
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="3">Todos los precios son en pesos argentinos (ARS) al 24/8/2020 </td>
+				</tr>
+			</tfoot>
+		</table>
+	</body>
+</html>
